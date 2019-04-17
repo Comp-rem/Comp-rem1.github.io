@@ -1,0 +1,57 @@
+.nav {
+    display: block;
+    background: rgba(126, 105, 78, 0.781);
+}
+.nav .menu {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    list-style: none outside none;
+}
+.nav li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.nav li a {
+    display: block;
+    height: 100%;
+    padding: 6px 12px;
+    color: white;
+    text-decoration: none;
+}
+.nav li:hover a {
+    background: rgba(0, 0, 0, .3);
+}
+body {   
+background-image: url(fonit.jpg);
+}
+.kartinka {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+    border-right: double 4px black;
+    border-bottom: double 4px black;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+.opus {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+footer {
+    height: 40px;
+    background: rgba(126, 105, 78, 0.781);
+    text-align: center;
+    line-height: 38px;
+}
